@@ -18,8 +18,8 @@
 #define CMD_INIT 2
 #define CMD_SENDDAT 3
 
-//#define DEVICE_TYPE "gh_ca9217796a90"                                //device type£¬ĞèÌîÈëÄúÉêÇëµ½µÄÎ¢ĞÅ²âÊÔidºÅ
-//#define DEVICE_ID "gh_ca9217796a90_dc295255d8de6c6fd0597acaf2f41d06" //deviceid£¬ĞèÌîÈëÄúÉêÇëµ½µÄdeviceid
+//#define DEVICE_TYPE "gh_ca9217796a90"                                //device typeï¼Œéœ€å¡«å…¥æ‚¨ç”³è¯·åˆ°çš„å¾®ä¿¡æµ‹è¯•idå·
+//#define DEVICE_ID "gh_ca9217796a90_dc295255d8de6c6fd0597acaf2f41d06" //deviceidï¼Œéœ€å¡«å…¥æ‚¨ç”³è¯·åˆ°çš„deviceid
 
 #define DEVICE_TYPE "gh_8601d1f4b9a4"
 #define DEVICE_ID "dev2"
@@ -30,7 +30,7 @@
 
 #define MAC_ADDRESS_LENGTH 6
 
-#define EAM_md5AndNoEnrypt 1     //ÈÏÖ¤·½Ê½Ö»ÄÜ¶¨ÒåÆäÖĞµÄÒ»ÖÖ
+#define EAM_md5AndNoEnrypt 1     //è®¤è¯æ–¹å¼åªèƒ½å®šä¹‰å…¶ä¸­çš„ä¸€ç§
 //#define EAM_md5AndAesEnrypt 1
 //#define EAM_macNoEncrypt 2
 
@@ -63,8 +63,8 @@
 #define SEND_HELLO_WECHAT "helloworld"
 
 /* Hardware Resources define */
-#define MPBLEDEMO2_LIGHT 19     //µãµÆÃğµÆÖ¸Ê¾£¬Ä¬ÈÏºìÉ«
-#define MPBLEDEMO2_BUTTON_1 16 // °´¼üK1£¬°´ÏÂ·¢ËÍĞÅÏ¢µ½Î¢ĞÅ
+#define MPBLEDEMO2_LIGHT 19     //ç‚¹ç¯ç­ç¯æŒ‡ç¤ºï¼Œé»˜è®¤çº¢è‰²
+#define MPBLEDEMO2_BUTTON_1 16 // æŒ‰é”®K1ï¼ŒæŒ‰ä¸‹å‘é€ä¿¡æ¯åˆ°å¾®ä¿¡
 
 typedef enum
 {
@@ -107,7 +107,7 @@ typedef struct
 
  typedef struct 
 {
-	bool wechats_switch_state; //¹«ÖÚÕËºÅÇĞ»»µ½Ç°Ì¨µÄ×´Ì¬
+	bool wechats_switch_state; //å…¬ä¼—è´¦å·åˆ‡æ¢åˆ°å‰å°çš„çŠ¶æ€
 	bool indication_state;
 	bool auth_state;
 	bool init_state;
